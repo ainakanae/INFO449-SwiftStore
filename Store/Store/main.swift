@@ -7,7 +7,12 @@
 
 import Foundation
 
-protocol SKU {}
+protocol SKU {
+    
+    var name: String { get }
+    func price() -> Int
+    
+}
 
 class Item {}
 
